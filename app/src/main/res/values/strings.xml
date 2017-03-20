@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Fourier Fencing</string>
     <string name="none_paired">No devices have been paired</string>
-    <string name="RaspberryPi_pairing">Select Fencing device from paired devices:</string>
+    <string name="RaspberryPi_1stpairing">Select 1st Fencing device from paired devices:</string>
+    <string name="RaspberryPi_2ndpairing">Select 2nd Fencing device from paired devices:</string>
 </resources>

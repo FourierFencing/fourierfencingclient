@@ -12,7 +12,7 @@
     tools:context="com.wordpress.fourierfencing.fourierfencingclient.MainActivity">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:weightSum="1">
@@ -196,10 +196,10 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.3"
             android:layout_marginTop="8dp"
-            android:orientation="vertical"
-            android:background="@drawable/score_border">
+            android:layout_weight="0.3"
+            android:background="@drawable/score_border"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/timer_banner"
@@ -233,17 +233,23 @@
                 android:onClick="resetScore"
                 android:text="Start"
                 android:textOff="Resume"
-                android:textOn="Pause"/>
+                android:textOn="Pause" />
 
-            <TextView
-                android:id="@+id/txtString"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_alignLeft="@+id/testView1"
-                android:layout_alignParentBottom="true"
-                android:text=""
-                android:textSize="15sp" />
+
         </LinearLayout>
+        <TextView
+            android:id="@+id/testView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/textString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pls work"
+            android:textColor="#000"
+            android:textSize="15sp" />
     </LinearLayout>
 </RelativeLayout>
 
